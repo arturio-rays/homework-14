@@ -1,0 +1,22 @@
+.footer {
+    padding-bottom: 30px;
+
+    &__holder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__logo {
+        fill: $grey;
+        padding: 35px;
+    }
+
+    &__copyright {
+        color: $grey;
+        font-size: 14px;
+        font-family: $lato;
+        font-weight: 400;
+
+    }
+}

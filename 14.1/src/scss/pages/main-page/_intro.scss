@@ -1,0 +1,59 @@
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    
+    &__title-holder {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 67px;
+        margin-bottom: 40px
+    }
+
+    &__title {
+        max-width: 700px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $white;
+        font-size: 54px;
+        font-family: $lato;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        padding: 53px 0;
+
+        span {
+            display: block;
+        }
+    }
+
+    &__text-holder {
+        max-width: 585px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $white;
+        font-size: 15px;
+        font-family: $lato;
+        font-weight: 400;
+        letter-spacing: 0.06em;
+        line-height: 29px;
+
+        span {
+            display: block;
+        }
+    }
+}
+
+.icon-scroll-icon:before {
+    content: "\e900";
+    color: #fff;
+    font-size: 38px;
+  }
